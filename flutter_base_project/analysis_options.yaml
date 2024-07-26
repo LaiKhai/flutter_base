@@ -1,1 +1,7 @@
 include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Add custom rules or modify existing ones here.
+    # Example of disallowing lowerCamelCase for enum values (This rule does not exist yet):
+    constant_identifier_names: false
