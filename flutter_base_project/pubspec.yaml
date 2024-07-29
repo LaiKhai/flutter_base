@@ -12,6 +12,8 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  get_it: ^7.7.0
+  internet_connection_checker: ^1.0.0+1
   intl: any
   pretty_dio_logger: ^1.4.0
 

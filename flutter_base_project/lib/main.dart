@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_base_project/core/di.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 GlobalKey<NavigatorState>? navigatorKey = GlobalKey<NavigatorState>();
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await initAppModule();
   runApp(const MainApp());
 }
 
