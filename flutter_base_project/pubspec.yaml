@@ -7,11 +7,13 @@ environment:
   sdk: '>=3.4.4 <4.0.0'
 
 dependencies:
+  cached_network_image: ^3.4.0
   dio: ^5.5.0+1
   flutter:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  flutter_svg: ^2.0.10+1
   get_it: ^7.7.0
   internet_connection_checker: ^1.0.0+1
   intl: any

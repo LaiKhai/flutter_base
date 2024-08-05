@@ -7,4 +7,9 @@ class Constants {
   static const int zero = 0;
   static const String token = "SEND TOKEN HERE";
   static const int apiTimeOut = 60000;
+  static const DAY_FORMAT = 'dd/MM/yyyy';
+  static const DAY_MONTH_FORMAT = 'dd/MM';
+  static const HOUR_FORMAT = 'HH:mm';
+
+  static const LIMIT = 20;
 }

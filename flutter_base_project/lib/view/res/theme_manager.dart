@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_base_project/core/gen/colors.gen.dart';
-import 'package:flutter_base_project/view/res/dimen.dart';
+import 'package:flutter_base_project/view/res/responsive/dimen.dart';
 import 'package:flutter_base_project/view/res/font_manager.dart';
 import 'package:flutter_base_project/view/res/style_manager.dart';
 
